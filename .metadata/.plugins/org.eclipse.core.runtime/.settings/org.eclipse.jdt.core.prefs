@@ -26,6 +26,7 @@ org.eclipse.jdt.core.formatter.comment.indent_root_tags=true
 org.eclipse.jdt.core.formatter.format_line_comment_starting_on_first_column=true
 org.eclipse.jdt.core.formatter.indent_switchstatements_compare_to_switch=true
 org.eclipse.jdt.core.formatter.indentation.size=2
+org.eclipse.jdt.core.formatter.insert_new_line_after_annotation_on_member=insert
 org.eclipse.jdt.core.formatter.insert_new_line_in_empty_annotation_declaration=insert
 org.eclipse.jdt.core.formatter.insert_new_line_in_empty_anonymous_type_declaration=insert
 org.eclipse.jdt.core.formatter.insert_new_line_in_empty_block=insert
