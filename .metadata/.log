@@ -26,3 +26,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.oomph.setup.ui 1 0 2020-04-08 08:45:33.724
 !MESSAGE Setup tasks were performed during startup updating 242 preferences. See 'C:\DeveloperTools\alfa-eclipse-2018-12\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2020-04-08 08:47:59.804
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2020-04-08 08:47:59.820
+!MESSAGE IvyDE plugin started
