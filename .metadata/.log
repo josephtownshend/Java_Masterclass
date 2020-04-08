@@ -206,3 +206,6 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.oomph.setup.ui 1 0 2020-04-08 09:00:54.627
 !MESSAGE Setup tasks were performed during startup updating 242 preferences. See 'C:\DeveloperTools\alfa-eclipse-2018-12\eclipse\configuration\org.eclipse.oomph.setup\setup.log' for details
+
+!ENTRY org.eclipse.jface.text 2 0 2020-04-08 09:12:51.222
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
