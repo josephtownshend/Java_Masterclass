@@ -2,6 +2,8 @@ public class Main {
 
   public static void main(String[] args) {
 
+    // this demonstrates the overflow and underflow of different data types in java.
+
     int myMinIntValue = Integer.MIN_VALUE;
     int myMaxIntValue = Integer.MAX_VALUE;
     System.out.println("Iteger Minimum Value = " + myMinIntValue);
@@ -18,6 +20,11 @@ public class Main {
     short myMaxShortValue = Short.MAX_VALUE;
     System.out.println("Byte Short Value = " + myMinShortValue);
     System.out.println("Byte Short Value = " + myMaxShortValue);
+
+    long myMinLongValue = Long.MIN_VALUE;
+    long myMaxLongValue = Long.MAX_VALUE;
+    System.out.println("Byte Long Value = " + myMinLongValue);
+    System.out.println("Byte Long Value = " + myMaxLongValue);
 
 
   }
