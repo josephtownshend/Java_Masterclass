@@ -33,6 +33,11 @@ public class Main {
     System.out.println("Byte Long Value = " + myMinLongValue);
     System.out.println("Byte Long Value = " + myMaxLongValue);
 
+    // examples of casting
+    int myTotal = myMinIntValue / 2;
+    byte myNewByteValue = (byte) (myMinByteValue / 2);
+    short myNewShortValue = (short) (myMinShortValue /2);
+
   }
 }
 
