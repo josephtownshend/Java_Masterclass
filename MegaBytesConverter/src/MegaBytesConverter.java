@@ -1,12 +1,16 @@
 
 public class MegaBytesConverter {
 
-  public static void printMegaBytesConverter (int kiloBytes) {
+  public static void printMegaBytesAndKiloBytes (int kiloBytes) {
 
-      float resultUnits = kiloBytes/1024;
+    if (kiloBytes < 0) {
+      System.out.println("Invalid Value");
+    } else {
+      int MB = kiloBytes/1024;
+      int KB = kiloBytes % 1024;
+      System.out.print(kiloBytes + " KB = " + MB + " MB and " + KB + " KB");
 
-      System.out.print(resultUnits);
-
+    }
   }
 }
 
