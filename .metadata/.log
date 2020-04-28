@@ -507,3 +507,9 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.jface.text 2 0 2020-04-28 08:06:23.453
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2020-04-28 09:09:14.209
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2020-04-28 09:09:14.219
+!MESSAGE IvyDE plugin started
