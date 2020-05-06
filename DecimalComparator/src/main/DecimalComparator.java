@@ -2,22 +2,17 @@ package main;
 
 public class DecimalComparator {
 
-  public static double areEqualByThreeDecimalPlaces(double numberOne, double numberTwo) {
+  public static boolean areEqualByThreeDecimalPlaces(double firstNumber, double secondNumber){
+    // casting as int is done to make sure numbers after decimal point get deleted.
+    // more advanced java libraries are available to perform this function
 
-    float numberOneRound = Math.round(numberOne);
-    float numberTwoRound = (float) numberTwo;
-
-    if (numberOneRound == numberTwoRound) {
-      System.out.println("true");
-      System.out.println(numberOneRound);
-      System.out.println(numberTwoRound);
-
-    } else {
-      System.out.println("False");
-      System.out.println(numberOneRound);
-      System.out.println(numberTwoRound);
+    if ( (int) (firstNumber * 1000) == (int) (secondNumber * 1000) ){
+      return true;
     }
-    return numberTwo;
+    else {
+      return false;
+    }
+
   }
 }
 
