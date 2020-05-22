@@ -9,6 +9,9 @@ public class Main {
     System.out.println("New score is " + secondScore);
 
     calculateScore();
+
+    Calculate.calcFeetAndInchesToCentimeters(10, 6);
+    Calculate.calcFeetAndInchesToCentimeters(100);
   }
 
   public static int calculateScore(String playerName, int score) {
