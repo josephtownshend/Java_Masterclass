@@ -8,12 +8,13 @@ public class FirstAndLastDigitSum {
     System.out.println(sumFirstAndLastDigit(2124858583));
   }
 
+
   public static int sumFirstAndLastDigit(int number) {
 
-    if(number < 0) {
+    if (number < 0) {
       return -1;
     } else if (number < 10) {
-      return number*2;
+      return number * 2;
     }
 
     int lastDigit = number % 10;
@@ -26,4 +27,3 @@ public class FirstAndLastDigitSum {
   }
 
 }
-
