@@ -8,6 +8,9 @@ public class Main {
 
     porsche.setDoors(5);
     holden.setDoors(3);
+    porsche.setModel("Carrera");
+
+    System.out.println("Model is " + porsche.getModel());
   }
 
 }
