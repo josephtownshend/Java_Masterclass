@@ -14,6 +14,18 @@ public class BankAccount {
   }
 
 
+  // overloaded constructor
+  public BankAccount(int accountNumber,
+      double balance,
+      String customerName) {
+    this(accountNumber, balance, customerName, "email@hotmail,com", 88888999);
+    this.accountNumber = accountNumber;
+    this.balance = balance;
+    this.customerName = customerName;
+
+  }
+
+
   public BankAccount(int accountNumber,
       double balance,
       String customerName,
