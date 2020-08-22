@@ -24,15 +24,35 @@ public class Car extends Vehicle {
   }
 
 
-  public void changeCurrentGear(int currentGear) {
+  public void changeGear(int currentGear) {
     this.currentGear = currentGear;
     System.out.println("Car.setCurrentGear(): Changed to " + this.currentGear + " gear.");
   }
 
 
   public void changeVelocity(int velocity, int direction) {
-    move(velocity, direction);
     System.out.println("Car.changeVelocity(): Velocity " + velocity + " direction " + direction + ".");
+    move(velocity, direction);
+  }
+
+
+  public int getWheels() {
+    return wheels;
+  }
+
+
+  public int getDoors() {
+    return doors;
+  }
+
+
+  public int getGears() {
+    return gears;
+  }
+
+
+  public boolean isManual() {
+    return isManual;
   }
 
 
