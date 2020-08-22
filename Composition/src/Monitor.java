@@ -1,6 +1,7 @@
 
 public class Monitor {
 
+  private final String model;
   private final String manfacturer;
   private final int size;
   private final Resolution nativeResolution;
@@ -18,7 +19,6 @@ public class Monitor {
     System.out.println("Drawing pixel at " + x + "," + y + " colour " + colour);
   }
 
-  private final String model;
   public String getModel() {
     return model;
   }
