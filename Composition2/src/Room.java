@@ -4,9 +4,6 @@ public class Room {
   private final Carpet carpet;
   private final Door door;
   private final Windows window;
-  public Carpet getCarpet() {
-    return carpet;
-  }
 
   private final int height;
   private final int width;
@@ -42,9 +39,15 @@ public class Room {
   }
 
 
+  public Carpet getCarpet() {
+    return carpet;
+  }
+
+
   public Door getDoor() {
     return door;
   }
+
 
   public Windows getWindow() {
     return window;
