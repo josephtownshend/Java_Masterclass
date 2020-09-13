@@ -46,6 +46,35 @@ public class Hamburger {
     this.additionalItemFourPrice = price;
   }
 
+  public double itemizeHamburger() {
+    double hamburgerPrice = this.price;
+
+    System.out.println(this.name + " hamburger " + " on a " + this.breadRoll + " roll " + " price is " + this.price);
+
+    if (this.additionalItemOne != null) {
+      hamburgerPrice += this.additionalItemOnePrice;
+      System.out.println("Added " + this.additionalItemOne + " for an extra " + this.additionalItemOnePrice);
+    }
+
+    if (this.additionalItemTwo != null) {
+      hamburgerPrice += this.additionalItemTwoPrice;
+      System.out.println("Added " + this.additionalItemTwo + " for an extra " + this.additionalItemTwoPrice);
+    }
+
+    if (this.additionalItemThree != null) {
+      hamburgerPrice += this.additionalItemThreePrice;
+      System.out.println("Added " + this.additionalItemThree + " for an extra " + this.additionalItemThreePrice);
+    }
+
+    if (this.additionalItemFour != null) {
+      hamburgerPrice += this.additionalItemFourPrice;
+      System.out.println("Added " + this.additionalItemFour + " for an extra " + this.additionalItemFourPrice);
+    }
+
+    return hamburgerPrice;
+
+  }
+
   public String getBreadRoll() {
     return breadRoll;
   }
